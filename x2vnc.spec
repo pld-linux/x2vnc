@@ -1,5 +1,5 @@
-#
 Summary:	A dual-screen hack for one keyboard and mouse on two machines
+Summary(pl):	Program umo¿liwiaj±cy pracê jedn± klawaitur± i myszk± na dwóch komptuerach
 Name:		x2vnc
 Version:	1.6
 Release:	1
@@ -14,6 +14,19 @@ BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+This program will let you use two screens on two different computers
+as if they were connected to the same computer. Even if one of the
+computers runs Windows 95/98/NT and the other one runs X-window. If
+they are both running Windows, you probably want to use Win2VNC
+instead.
+
+%description -l pl
+Program umozliwia korzystanie z dwóch ekranów na dwóch ró¿nych
+maszynach tak jakby by³y pod³±czone do tego samego komputera. Nawet
+je¿eli jeden z komputerów korzysta z windows 95/98/NT a drugi z
+X-window. Je¿eli oba korzystaj± z windows, prawdopodobnie lepiej
+by³oby skorzystaæ z Win2VNC.
+
 %prep
 %setup -q
 
@@ -29,7 +42,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
