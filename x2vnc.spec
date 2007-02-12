@@ -1,5 +1,5 @@
 Summary:	A dual-screen hack for one keyboard and mouse on two machines
-Summary(pl.UTF-8):   Program umożliwiający pracę jedną klawiaturą i myszką na dwóch komputerach
+Summary(pl.UTF-8):	Program umożliwiający pracę jedną klawiaturą i myszką na dwóch komputerach
 Name:		x2vnc
 Version:	1.7.1
 Release:	1
