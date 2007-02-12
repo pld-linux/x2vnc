@@ -1,5 +1,5 @@
 Summary:	A dual-screen hack for one keyboard and mouse on two machines
-Summary(pl):	Program umo¿liwiaj±cy pracê jedn± klawiatur± i myszk± na dwóch komputerach
+Summary(pl.UTF-8):   Program umoÅ¼liwiajÄ…cy pracÄ™ jednÄ… klawiaturÄ… i myszkÄ… na dwÃ³ch komputerach
 Name:		x2vnc
 Version:	1.7.1
 Release:	1
@@ -20,12 +20,12 @@ computers runs Windows 95/98/NT and the other one runs X-Window. If
 they are both running Windows, you probably want to use Win2VNC
 instead.
 
-%description -l pl
-Program umo¿liwia korzystanie z dwóch ekranów na dwóch ró¿nych
-maszynach, tak jakby by³y pod³±czone do tego samego komputera. Nawet
-je¿eli jeden z komputerów korzysta z Windows 95/98/NT a drugi z
-X-Window. Je¿eli oba korzystaj± z Windows, prawdopodobnie lepiej
-bêdzie u¿yæ Win2VNC.
+%description -l pl.UTF-8
+Program umoÅ¼liwia korzystanie z dwÃ³ch ekranÃ³w na dwÃ³ch rÃ³Å¼nych
+maszynach, tak jakby byÅ‚y podÅ‚Ä…czone do tego samego komputera. Nawet
+jeÅ¼eli jeden z komputerÃ³w korzysta z Windows 95/98/NT a drugi z
+X-Window. JeÅ¼eli oba korzystajÄ… z Windows, prawdopodobnie lepiej
+bÄ™dzie uÅ¼yÄ‡ Win2VNC.
 
 %prep
 %setup -q
