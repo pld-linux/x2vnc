@@ -1,12 +1,12 @@
 Summary:	A dual-screen hack for one keyboard and mouse on two machines
 Summary(pl.UTF-8):	Program umożliwiający pracę jedną klawiaturą i myszką na dwóch komputerach
 Name:		x2vnc
-Version:	1.7.1
+Version:	1.7.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://fredrik.hubbe.net/x2vnc/%{name}-%{version}.tar.gz
-# Source0-md5:	b0804c9078ab3537943f29a02deccfd9
+# Source0-md5:	f23f86bcfa12a80eaeb886ab9b3ee447
 URL:		http://fredrik.hubbe.net/x2vnc.html
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
